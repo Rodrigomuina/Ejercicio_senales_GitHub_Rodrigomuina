@@ -1,5 +1,5 @@
 extends TextureButton
-
+@onready var block_violet_scene = preload( "res://scenes/Blocks/Violet/BlockViolet.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -11,5 +11,9 @@ func _process(delta: float) -> void:
 	pass
 
 
-func _on_button_down() -> void:
-	pass # Replace with function body.
+func _on_button_down():
+	generate_block()
+
+func generate_block():
+	var block_instance = block_violet_scene.instantiate()
+	add_child(block_instance)
