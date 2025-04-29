@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://cey6fuiebmhpe"]
 
 [ext_resource type="Texture2D" uid="uid://dlrbytvyhp1kb" path="res://assets/restart.png" id="1"]
-[ext_resource type="Script" uid="uid://klttyhgpu2cu" path="res://scenes/Buttons/Reset/reset.gd" id="2_vxotw"]
+[ext_resource type="Script" uid="uid://dyrwn823r8axq" path="res://scenes/Buttons/Reset/reset.gd" id="2_vxotw"]
 
 [node name="Reset" type="TextureButton"]
 texture_normal = ExtResource("1")
