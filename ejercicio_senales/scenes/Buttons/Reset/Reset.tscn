@@ -1,11 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://cey6fuiebmhpe"]
+[gd_scene load_steps=3 format=3 uid="uid://cey6fuiebmhpe"]
 
 [ext_resource type="Texture2D" uid="uid://dlrbytvyhp1kb" path="res://assets/restart.png" id="1"]
+[ext_resource type="Script" uid="uid://klttyhgpu2cu" path="res://scenes/Buttons/Reset/reset.gd" id="2_vxotw"]
 
 [node name="Reset" type="TextureButton"]
-margin_right = 40.0
-margin_bottom = 40.0
 texture_normal = ExtResource("1")
-__meta__ = {
-"_edit_use_anchors_": false
-}
+script = ExtResource("2_vxotw")
+
+[connection signal="button_down" from="." to="." method="_on_button_down"]
