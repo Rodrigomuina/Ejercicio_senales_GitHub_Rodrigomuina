@@ -13,7 +13,7 @@ size = Vector2(1519.98, 67.3924)
 script = ExtResource("5")
 
 [node name="Background" type="Sprite2D" parent="."]
-position = Vector2(584.464, 323.633)
+position = Vector2(586, 319)
 scale = Vector2(3.6346, 3.2109)
 texture = ExtResource("1")
 
@@ -42,9 +42,9 @@ position = Vector2(513.885, 577.225)
 shape = SubResource("1")
 
 [node name="CountLabel" type="Label" parent="."]
-offset_left = 488.0
-offset_top = 95.0
-offset_right = 668.0
-offset_bottom = 144.0
-text = "Cantidad de Instancias:
+offset_left = 500.0
+offset_top = 127.0
+offset_right = 684.0
+offset_bottom = 176.0
+text = "Cantidad de Instancias: 
 "

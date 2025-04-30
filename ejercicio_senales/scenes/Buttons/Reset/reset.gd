@@ -12,6 +12,4 @@ func _process(delta: float) -> void:
 
 
 func _on_button_down():
-	var Blocks = get_tree().get_nodes_in_group("Blocks")
-	for block in Blocks:
-		block.delete()
+	get_tree().call_group("Blocks", "delete")
